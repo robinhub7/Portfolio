@@ -91,6 +91,11 @@ section h2 /*My Projects and about me*/{
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
+.project p /*Text under the titles of My Project*/{
+background-color: #ffffff;
+padding: 1%;
+border-radius: 10px;}
+
 .project:hover {
     transform: translateY(-5px);
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
@@ -99,7 +104,7 @@ section h2 /*My Projects and about me*/{
 .project h3 /*Project Title 1 and 2 title text*/{
     margin-bottom: 0.5rem;
     font-size: 1.5rem;
-    color: rgba(180, 180, 180, 1);
+    color: rgb(255, 255, 255);
     text-shadow: rgb(0, 0, 0) -1px -2px 3px;
 }
 
