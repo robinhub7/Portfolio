@@ -7,14 +7,11 @@
     <link rel="stylesheet" href="Portfolio.css">
     <link rel="icon" href="https://img.freepik.com/premium-photo/retrowave-synthwave-portrait-young-woman-vaporwave-80s-scifi-futuristic-fashion-poster-style-neural-network-ai-generated_76080-48331.jpg">
 
-<audio autoplay loop>
-    <source src="Synthwave Finale.mp3" type="audio/mp3">
-    <source src="Synthwave Finale.ogg" type="audio/ogg">
-    Your browser does not support the audio element.
-</audio>
+    <audio src="Synthwave Finale.mp3" autoplay loop></audio>
 </head>
 
 <body>
+<!-- Header/title/top part -->
     <header>
         <h1>Brandon Liddle</h1>
         <nav>
@@ -25,39 +22,74 @@
             </ul>
         </nav>
     </header>
+<!--About me-->
+    <div class="about_languages">
+        <section id="languages">
+            <div class="language">
+                <h1>Programming Languages I Know:</h1>
+                <div class = "logos">
+                    <img src="python.png" alt="Image of language">
+                    <img src="sql logo.png" alt="">
+                    <img src="Javascript logo.png" alt="">
+                    <img src="html 5 logo.webp" alt="">
+                    <img src="css logo.png" alt="">
+                </div>
+                <h1>Related Skills:</h1>
+                <div class="logos">
+                    <img src="photoshop logo.png" alt="">
+                    <img src="premiere pro logo.png" alt="">
+                    <img src="gimp logo.png" alt="">
+                    <img src="excel logo.webp" alt="">
+                </div>
+                <p>List of above: Python, SQL, Javascript, HTML, CSS, Photoshop, Premiere Pro, Gimp, Excel</p>
+            </div>
+        </section>
+    
+        <section id="about">
+            <h2>About Me</h2>
+            <p>A passionate and adaptable individual with a strong understanding of human behaviour, excellent communication skills, and a proven ability to learn new skills quickly. Possessing diverse interests and experiences across various fields including customer service, sales, graphic design, and team collaboration. Committed to continuous personal and professional growth with a strong desire to contribute meaningfully to any team. Seeking an opportunity to leverage my broad skill set in a dynamic work environment. I am proficient in a number of programming languages including: Python, CSS, HTML, Javascript and SQL
+            </p>
+        </section>
+    </div>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>A passionate and adaptable individual with a strong understanding of human behaviour, excellent communication skills, and a proven ability to learn new skills quickly. Possessing diverse interests and experiences across various fields including customer service, sales, graphic design, and team collaboration. Committed to continuous personal and professional growth with a strong desire to contribute meaningfully to any team. Seeking an opportunity to leverage my broad skill set in a dynamic work environment. I am proficient in a number of programming languages including: Python, CSS, HTML, Javascript and SQL
-        </p>
-    </section>
-
+<!--Projects-->
     <section id="projects">
         <h2>My Projects</h2>
         <div class="project">
             <h3>Expense Tracker</h3>
             <p>Code to track and update your expenses!</p>
-            <a href="https://github.com/robinhub7/Expense-Tracker-All-Stuff-Etc./blob/main/expense%20tracker%20task.py">View Project</a>
+            <a href="https://github.com/robinhub7/Expense-Tracker-All-Stuff-Etc./blob/main/expense%20tracker%20task.py" target="_blank">View Project</a>
         </div>
         <div class="project">
             <h3>4 Digit Code Cracker</h3>
             <p>Finds every combination of a 4 digit number and prints it to wherever you clicked on screen (requires pip installing keyboard via command prompt)</p>
-            <a href="https://github.com/robinhub7/4-Digit-Code-Cracker">View Project</a>
+            <a href="https://github.com/robinhub7/4-Digit-Code-Cracker" target="_blank">View Project</a>
         </div>
         <div class="project">
             <h3>Weather Tracking Application</h3>
             <p>Gets weather data and gives the info to the user</p>
-            <a href="https://github.com/robinhub7/Expense-Tracker-All-Stuff-Etc./blob/main/weather%20app%20task.py">View Project</a>
+            <a href="https://github.com/robinhub7/Expense-Tracker-All-Stuff-Etc./blob/main/weather%20app%20task.py" target="_blank">View Project</a>
         </div>
-        <!-- Add more projects as needed -->
+        <div class="project">
+            <h3>For more of my projects go to my github here!</h3>
+            <p>Just click the button below!</p>
+            <a href="https://github.com/robinhub7?tab=repositories" target="_blank">My Github</a>
+        </div>
     </section>
 
+
+<!--Contact Me-->
     <footer id="contact">
         <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:bankres@mail.com">banjim</a></p>
+        <form action="https://formsubmit.co/bankres@mail.com" method="POST">
+            <input type="email" name="email" placeholder="Your Email Address" required>
+            <input class="emailinput" type="text" name="name" placeholder="Write your message here!" required>
+            <button type="submit">Send</button>
+        </form>
+        <p>Email: <a href="mailto:bankres@mail.com">Redacted</a></p>
         <p>See more of my work on:</p>
         <ul>
-            <li><a href="#">GitHub! (click here)</a></li>
+            <li><a href="https://github.com/robinhub7?tab=repositories" target="_blank">GitHub! (click here)</a></li>
         </ul>
     </footer>
 </body>
