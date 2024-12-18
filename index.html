@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="Portfolio.css">
     <link rel="icon" href="https://img.freepik.com/premium-photo/retrowave-synthwave-portrait-young-woman-vaporwave-80s-scifi-futuristic-fashion-poster-style-neural-network-ai-generated_76080-48331.jpg">
 
-    <audio src="Synthwave Finale.mp3" autoplay loop></audio>
 </head>
 
 <body>
@@ -34,6 +33,7 @@
                     <img src="html 5 logo.webp" alt="">
                     <img src="css logo.png" alt="">
                 </div>
+                <br>
                 <h1>Related Skills:</h1>
                 <div class="logos">
                     <img src="photoshop logo.png" alt="">
@@ -42,6 +42,11 @@
                     <img src="excel logo.webp" alt="">
                 </div>
                 <p>List of above: Python, SQL, Javascript, HTML, CSS, Photoshop, Premiere Pro, Gimp, Excel</p>
+            </div>
+            <div>
+                <br>
+                <h1>Click this for some good tunes!</h1>
+                <audio src="Synthwave Finale.mp3" autoplay loop controls></audio>
             </div>
         </section>
     
@@ -82,11 +87,13 @@
     <footer id="contact">
         <h2>Contact Me</h2>
         <form action="https://formsubmit.co/bankres@mail.com" method="POST">
+            <input type="hidden" name="_subject" value="New Email From Potential Hirer via Portfolio">
             <input type="email" name="email" placeholder="Your Email Address" required>
-            <input class="emailinput" type="text" name="name" placeholder="Write your message here!" required>
+            <input type="hidden" name="_next" value="https://robinhub7.github.io/Portfolio-Email-Submission/">
+            <textarea class="emailinput" rows="8" cols="40" name="name" placeholder="Write your message here!" required wrap="soft"></textarea>
             <button type="submit">Send</button>
         </form>
-        <p>Email: <a href="mailto:bankres@mail.com">Redacted</a></p>
+        <p>Email: <a href="mailto:bankres@mail.com">bankres@mail.com</a></p>
         <p>See more of my work on:</p>
         <ul>
             <li><a href="https://github.com/robinhub7?tab=repositories" target="_blank">GitHub! (click here)</a></li>
